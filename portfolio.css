@@ -324,12 +324,12 @@ li>strong>a:hover{
    
 }
 
-@media(max-width:568px){
+@media(max-width:600px){
 	#nav{
 		display: none;
 	}
 }
-@media(min-width:568px){
+@media(min-width:600px){
 	.toggler{
 		display: none;
 	}
