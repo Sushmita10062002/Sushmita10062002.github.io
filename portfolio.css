@@ -297,6 +297,10 @@ li>strong>a:hover{
 	text-align: center;
 	color: var(--textColor)
 }
+  .card-img{
+	width: 250px;
+	height: 250px;
+}
 }
 
 @media(min-width: 1000px){
