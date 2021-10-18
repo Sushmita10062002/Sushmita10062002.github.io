@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Portfolio</title>
+		<link rel="stylesheet" href="portfolio.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	</head>
+	<body>
+		<nav class="navbar">
+			<div>
+				<h1>SUSHMITA</h1>
+			</div>
+			<div class="toggler" onclick="openSlideMenu()">
+				<div class="line1"></div>
+				<div class="line2"></div>
+				<div class="line3"></div>
+			</div>
+			<ul class="navbar-nav" id="nav">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#about-myself">About</a></li>
+				<li><a href="#contact-me">Contact</a></li>
+			</ul>
+		</nav>
+		<div id="side-menu" class="side-nav">
+			<a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+		 	<a href="#home">Home</a>
+			<a href="#projects">Projects</a>
+			<a href="#about-myself">About</a>
+			<a href="#contact-me">Contact</a>
+		</div>
+		<section class="section" id="home">
+			<div class="main-intro">
+			   <div class="image-box">
+			   	<img src='portfolio-image.jpg'/>
+			   </div>
+			   <div class="intro-box">
+			    <h1>Hi, I am </h1>
+			    <h1><strong>Sushmita</strong></h1>
+			   	<p>front-end dev and ml-enthusiast</p>
+			   </div>
+			</div>
+		</section>
+		<section class="project-section" id="projects">
+			<h1>My Past Projects</h1>
+			<div class="underline"></div>
+   <div class="grid">
+       <div className="card">
+        <img src="cotton.png" alt="project-img" class="card-img" />
+        <div className="card-body">
+           <div className="card-title"><h2>Predict Disease</h2></div>
+           <ul className="card-text">
+              <li>
+                 <strong>
+                     Machine learning(CNN)
+                 </strong>
+              </li>
+              <li>
+                 <strong>
+                   <a href="https://github.com/Sushmita10062002/Cotton_disease_Prediction" >VIEW CODE</a>
+                 </strong>
+              </li>
+           </ul>
+        </div>
+      </div>
+      <div className="card">
+        <img src="movierecomender.png" alt="project-img" class="card-img" />
+        <div className="card-body">
+           <div className="card-title"><h2>Movie Recommend</h2></div>
+           <ul className="card-text">
+              <li>
+                 <strong>
+                     ML(cosine similarity)
+                 </strong>
+              </li>
+              <li>
+                 <strong style="color: var(--textColor)">
+                   <a href="https://github.com/Sushmita10062002/MovieRecommendationSystem">VIEW CODE</a>
+                 </strong>
+              </li>
+           </ul>
+        </div>
+      </div>
+      <div className="card">
+        <img src="flight.png" alt="project-img" class="card-img" />
+        <div className="card-body">
+           <div className="card-title"><h2>Flight Price Prediction</h2></div>
+           <ul className="card-text">
+              <li>
+                 <strong>
+                     ML(random forset)
+                 </strong>
+              </li>
+              <li>
+                 <strong style="color: var(--textColor)">
+                   <a href="https://github.com/Sushmita10062002/FlightPricePrediction">VIEW CODE</a>
+                 </strong>
+              </li>
+           </ul>
+        </div>
+      </div>
+      <div className="card">
+        <img src="bankote.png" alt="project-img" class="card-img" />
+        <div className="card-body">
+           <div className="card-title"><h2>Predict Fake Note</h2></div>
+           <ul className="card-text">
+              <li>
+                 <strong>
+                     ML(random forset)
+                 </strong>
+              </li>
+              <li>
+                 <strong style="color: var(--textColor)">
+                   <a href="https://github.com/Sushmita10062002/FakeNoteAuthenticationML">VIEW CODE</a>
+                 </strong>
+              </li>
+           </ul>
+        </div>
+      </div>
+       <div className="card">
+        <img src="chatbot.jpg" alt="project-img" class="card-img" />
+        <div className="card-body">
+           <div className="card-title"><h2>Simple Chatbot</h2></div>
+           <ul className="card-text">
+              <li>
+                 <strong>
+                     NLP(nltk,lemmatizer,
+                     <br>
+                     bagofwords,neuralnetwork)
+                 </strong>
+              </li>
+              <li>
+                 <strong style="color: var(--textColor)">
+                  <a href="https://github.com/Sushmita10062002/Chatbot">VIEW CODE</a>
+                 </strong>
+              </li>
+           </ul>
+        </div>
+      </div>
+       <div className="card">
+        <img src="spam.jpg" alt="project-img" class="card-img" />
+        <div className="card-body">
+           <div className="card-title"><h2>Spam Classifiaction</h2></div>
+           <ul className="card-text">
+              <li>
+                 <strong>
+                     NLP(nltk,stemming,
+                     <br>
+                     word2vec),Naive Bayes
+                 </strong>
+              </li>
+              <li>
+                 <strong style="color: var(--textColor)">
+                   <a href="https://github.com/Sushmita10062002/smsspamClassifier">VIEW CODE</a>
+                 </strong>
+              </li>
+           </ul>
+        </div>
+      </div>
+
+     <div className="card">
+        <img src="netflix.png" alt="project-img" class="card-img" />
+        <div className="card-body">
+           <div className="card-title"><h2>Netflix Clone</h2></div>
+           <ul className="card-text">
+              <li>
+                 <strong>
+                     HTML, CSS, JS
+                 </strong>
+              </li>
+              <li>
+                 <strong style="color: var(--textColor)">
+                   <a href="https://github.com/Sushmita10062002/netflixclonefrontend">VIEW CODE</a>
+                 </strong>
+              </li>
+           </ul>
+        </div>
+      </div>
+       <div className="card">
+        <img src="newmines.png" alt="project-img" class="card-img" />
+        <div className="card-body">
+           <div className="card-title"><h2>Minesweeper</h2></div>
+           <ul className="card-text">
+              <li>
+                 <strong>
+                     HTML, CSS, JS
+                 </strong>
+              </li>
+              <li>
+                 <strong style="color: var(--textColor)">
+                   <a href="https://github.com/Sushmita10062002/minesweepergame">VIEW CODE</a>
+                 </strong>
+              </li>
+           </ul>
+        </div>
+      </div>
+       <div className="card">
+        <img src="pacman.png" alt="project-img" class="card-img" />
+        <div className="card-body">
+           <div className="card-title"><h2>Pacman</h2></div>
+           <ul className="card-text">
+              <li>
+                 <strong>
+                     HTML, CSS, JS
+                 </strong>
+              </li>
+              <li>
+                 <strong style="color: var(--textColor)">
+                   <a href="https://github.com/Sushmita10062002/pacmangame">VIEW CODE</a>
+                 </strong>
+              </li>
+           </ul>
+        </div>
+      </div>
+       <div className="card">
+        <img src="rps.png" alt="project-img" class="card-img" />
+        <div className="card-body">
+           <div className="card-title"><h2>Rock Paper Scissor</h2></div>
+           <ul className="card-text">
+              <li>
+                 <strong>
+                     HTML, CSS, JS
+                 </strong>
+              </li>
+              <li>
+                 <strong style="color: var(--textColor)">
+                   <a href="https://github.com/Sushmita10062002/rockpaperscissor">VIEW CODE</a>
+                 </strong>
+              </li>
+           </ul>
+        </div>
+      </div>
+       <div className="card">
+        <img src="snake.png" alt="project-img" class="card-img" />
+        <div className="card-body">
+           <div className="card-title"><h2>Snake Game</h2></div>
+           <ul className="card-text">
+              <li>
+                 <strong>
+                     HTML, CSS, JS
+                 </strong>
+              </li>
+              <li>
+                 <strong style="color: var(--textColor)">
+                   <a href="https://github.com/Sushmita10062002/snakegame">VIEW CODE</a>
+                 </strong>
+              </li>
+           </ul>
+        </div>
+      </div>
+       <div className="card">
+        <img src="burger1.png" alt="project-img" class="card-img" />
+        <div className="card-body">
+           <div className="card-title"><h2>Burger Builder</h2></div>
+           <ul className="card-text">
+              <li>
+                 <strong>
+                     React
+                 </strong>
+              </li>
+              <li>
+                 <strong style="color: var(--textColor)">
+                   VIEW CODE
+                 </strong>
+              </li>
+           </ul>
+        </div>
+      </div>
+   </div>
+		</section>
+		<section class="aboutme">
+			  <div id="about-myself">
+			  <div class="about">
+			  	<h1 style="color: var(--textColor)">ABOUT ME</h1>
+			  	<div>
+			  		<h3>Hey, I am Sushmita!</h3>
+			  		<h3><strong>Front-end dev | ML Enthusiast</strong></h3>
+			  		<p>
+			  			I'm a second year student persuing B.SC.(HONS.) <strong>Physics</strong>
+			  			at Ramjas College, Delhi University. I love to solve problems using <strong>Machine Learning</strong> and to analyze the data.
+			  			I also have the knowledge of backend technology <strong>MERN </strong>stack. I am always ready to learn new technologies and
+			  			make something new out of it.
+			  		</p>
+			  	</div>
+			  </div>
+			  <div class="skills">
+			  	<h1 style="color: var(--textColor)">MY SKILLS</h1>
+			  	<div class="skills-icon">
+			  		<i class="fab fa-html5 fa-3x" style="color: #FFA500"></i>
+			  		<i class="fab fa-css3-alt fa-3x" style="color: var(--textColor)"></i>
+			  		<i class="fab fa-js-square fa-3x" style="color: #FFFF00"></i>
+			  		<i class="fab fa-react fa-3x" style="color: var(--textColor)"></i>
+			  		<i class="fab fa-python fa-3x" style="color: #FFFF00"></i>
+			  	 <i class="fab fa-node fa-3x" style="color: #2cdb1d"></i>
+			  	</div>
+			  </div>
+			 </div>
+			  <div class="contact" id="contact-me">
+      <h1  style="color: var(--textColor)">Contact me here</h1>
+			  	<p><strong>Email: </strong>sushmita10062002@gmail.com</p>
+			  	<div class="social-accounts">
+			  		<a href="https://github.com/Sushmita10062002"><i class="fab fa-github fa-2x"></i></a>
+			  		<a href="https://twitter.com/SushmitaCode"><i class="fab fa-twitter fa-2x"></i></a>
+			  		<a href="https://www.linkedin.com/in/sushmita-gupta-21907520a/">
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+			  	</div>
+			  </div>
+		</section>
+		
+		<script src="portfolio.js"></script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
