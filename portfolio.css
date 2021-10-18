@@ -276,6 +276,10 @@ li>strong>a:hover{
 	.grid{
 		grid-gap: 20px 50px;
 	}
+	.card-img{
+	width: 250px;
+	height: 250px;
+}
 }
 
 
